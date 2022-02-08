@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px; 
+    transition: 1s;
+}
+/* Logo span  */
+#logo span{
+color:red;
+font-weight: bold;
+font-family: 'Moon Dance', cursive;
+ font-size: 50px;
+ display: flex;
+ justify-content: center;
+ text-align: center;
+ animation: wel 4s infinite ;
+}
+/* keyframe */
+@keyframes wel {
+    0%{border-radius:0px;
+    font-size: 35px;
+    display: flex;
+    font-family: 'Neonderthaw', cursive;
+    }
+    100%{border-radius: 40px;
+    font-size: 25px;
+    display: block;
+    }
+    }
+#logo label{
+    color:white;
+    font-weight: bold;
+    font-family: 'Neonderthaw', cursive;
+     font-size: 50px;
+     display: flex;
+     justify-content: center;
+     text-align: center;
+    }
+/* logo Label */
+/* topnav  */
+.nav{
+margin: 0px;
+padding: 0px;
+position: absolute;
+width:100%;
+ background-color: white;
+}
+.nav ul{
+    list-style-type: none;
+    text-decoration: none;    
+    display: block;
+}
+.nav li {
+list-style-type: none;
+text-decoration: none;
+padding: 10px;
+ float: left;
+margin: 10px;
+ display: flex;
+}
+.nav a{
+list-style-type: none;
+text-decoration: none;
+color: black;
+font-size: 16px;
+padding: 8px;
+display: flex;
+}
+.nav li  .fa-caret-down{
+    width: 15px;
+padding:0px 13px ;
+}
+#logo .fa-video{ 
+width: 10px;
+padding: 0px 20px 0px;
+}
+.top{   
+    padding: 0px;
+  background-color: black;
+ position: absolute;
+ width:16%;  
+ margin: 15px;
+ margin-top: 40px;
+}
+ .top  ul a{
+    margin: 0px;
+    font-size: 16px;
+ font-weight: lighter;
+ color: white; 
+padding: 0px;
+display: block;
+justify-content: center;
+text-align: center;
+}
+ .top li{
+    float: none;
+    display: none;
+padding: 15px;
+ justify-items: center;
+ border: 1px solid white;
+}
+.nav li:hover .top li{
+    display: block;
+    cursor: pointer;
+} 
+.top ul li a:hover{
+    background-color: aqua;
+    color: black;
+    padding: 25px;
+}
+/* top nav option 2 */
+/* body */
+body{
+    background-color: black;
+    overflow: auto;
+}
+/* container */
+.container{
+margin-left: 999px;
+ position: absolute;
+margin-top: 15px;
+border: none;
+top:65px;
+padding-top: -8px;
+}
+/* search-bar */
+.search-bar {
+    padding: 0px;
+font-size: 20px;
+width: 110px;
+border: none;
+display: flex;
+}
+/* search-bar imput  */
+.search-bar input{
+padding:15px 220px 16px 20px;
+border-radius: 0px;
+}
+/* search-bar button */
+.search-bar button{
+ padding: 18px 20px  15px 20px ;
+ display: flex;
+justify-content: center;
+align-items: center;
+color: aqua;
+font-size:19px; 
+background-color: black;
+}
+/* placeholder of button */
+::placeholder{
+    color: black;
+    font-size: 15px;
+}
